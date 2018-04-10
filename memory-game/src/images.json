@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Spiderman",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/9/30/538cd33e15ab7/standard_xlarge.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Hulk",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/5/a0/538615ca33ab0/standard_xlarge.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Iron Man",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/6/a0/55b6a25e654e6/standard_xlarge.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Thor",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/5/a0/537bc7036ab02/standard_xlarge.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Black Panther",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/1/c0/537ba2bfd6bab/standard_xlarge.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Gamora",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/9/70/537bab57b84d4/standard_xlarge.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Jean Grey",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/8/d0/537bb2a5d33f1/standard_xlarge.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Scarlett Witch",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/8/70/537bc21ab36c0/standard_xlarge.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Mystique",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/5/03/5390dc2225782/standard_xlarge.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Rogue",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/c/90/537bc196df2fb/standard_xlarge.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Loki",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/9/50/537bb3780cfd2/standard_xlarge.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Captain America",
+    "image": "https://i.annihil.us/u/prod/marvel/i/mg/3/50/537ba56d31087/standard_xlarge.jpg"
+  }
+]
