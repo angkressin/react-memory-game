@@ -1,6 +1,4 @@
-import React, {
-  Component
-} from "react";
+import React, {Component} from "react";
 import MarvelCard from "./components/MarvelCards";
 import Wrapper from "./components/Wrapper";
 import Navigation from "./components/Navigation";
@@ -10,15 +8,6 @@ import chars from "./images.json";
 class App extends Component {
   state = {
     chars,
-  };
-
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const chars = this.state.chars.filter(chars => chars.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({
-      chars
-    });
   };
 
   randomize = () => {
@@ -35,7 +24,6 @@ class App extends Component {
     console.log("clicked: " + clickedArray)
   }
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <div >
@@ -43,7 +31,8 @@ class App extends Component {
       <ModalItem / >
       </Navigation>
       <Wrapper > {
-        this.state.chars.map(chars => ( <
+        this.state.chars.map(chars => (
+          <
           MarvelCard
           sortCards = {this.randomize, this.trackClicks}
           id = {chars.id}
