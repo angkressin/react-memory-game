@@ -37,15 +37,12 @@ class App extends Component {
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
-    return ( <
-      div >
-      <
-      Navigation >
-      <
-      ModalItem / >
-      <
-      /Navigation> <
-      Wrapper > {
+    return (
+      <div >
+      <Navigation >
+      <ModalItem / >
+      </Navigation>
+      <Wrapper > {
         this.state.chars.map(chars => ( <
           MarvelCard
           sortCards = {this.randomize, this.trackClicks}
@@ -55,9 +52,8 @@ class App extends Component {
           image = {chars.image}
           />
         ))
-      } <
-      /Wrapper> <
-      /div>
+      } </Wrapper>
+      </div>
     );
   }
 }
