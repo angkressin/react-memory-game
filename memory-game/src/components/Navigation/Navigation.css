@@ -5,3 +5,7 @@
 .vertical-align {
   vertical-align: middle;
 }
+
+p.heading {
+  margin: 0;
+}

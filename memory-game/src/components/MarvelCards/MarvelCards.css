@@ -12,3 +12,7 @@
 .card > .img-container:hover {
   opacity: .7;
 }
+
+.img {
+  height: 150px;
+}
