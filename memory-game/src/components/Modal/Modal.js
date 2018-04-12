@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'
 import Modal from 'react-responsive-modal';
 import "./Modal.css";
 
@@ -22,7 +22,7 @@ export default class ModalItem extends React.Component {
     return (
       <div className="container">
       <div>
-        <button className="btn btn-primary font" onClick={this.onOpenModal}>Instructions</button>
+        <button className="btn btn-primary font" onClick={this.onOpenModal}>How to play</button>
         <Modal open={open} onClose={this.onCloseModal} little>
         <h2 className="font">How to play:</h2>
         <p className="font">
