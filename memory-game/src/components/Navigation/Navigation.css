@@ -9,3 +9,8 @@
 p.heading {
   margin: 0;
 }
+
+.border {
+  border-bottom: 100px;
+  border-color: red;
+}

@@ -26,10 +26,22 @@ export default class ModalItem extends React.Component {
         <Modal open={open} onClose={this.onCloseModal} little>
         <h2 className="font">How to play:</h2>
         <p className="font">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
-          hendrerit risus, sed porttitor quam.
+          The goal of this game is to reach a Top Score of 12 points.
         </p>
+        <ul className="font">
+          <li>
+          Start by clicking on a Marvel superhero card.
+          </li>
+          <li>
+          Once clicked, the cards will shuffle in a random order.
+          <li>You must then click a new card but not a card that you have selected before.
+          </li>
+          </li>
+          <li>If you're next selection is a new card, then your score will go up one.
+          </li>
+          <li>If it is a card that you have selected before, then your score will go back down to 0.
+          </li>
+        </ul>
         </Modal>
       </div>
       </div>

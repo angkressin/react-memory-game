@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "i": "^0.3.6",
+    "npm": "^5.8.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-responsive-modal": "^2.0.1",
+    "react-s-alert": "^1.4.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
