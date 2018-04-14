@@ -3,7 +3,7 @@ import "./Navigation.css";
 
 const Navigation = props => (
   <div>
-  <nav className="navbar navbar-light bg-light border">
+  <nav className="navbar navbar-light bg-light">
   <div className="container">
   <a className="navbar-brand heading" href="/">
     <img src="http://1000logos.net/wp-content/uploads/2017/08/Marvel-Logo.png" height="50" className="d-inline-block align-bottom" alt="" />

@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import Modal from 'react-responsive-modal';
 import "./Modal.css";
 
-
 export default class ModalItem extends React.Component {
   state = {
     open: false,
@@ -22,7 +21,7 @@ export default class ModalItem extends React.Component {
     return (
       <div className="container">
       <div>
-        <button className="btn btn-primary font" onClick={this.onOpenModal}>How to play</button>
+        <button className="btn font" onClick={this.onOpenModal}>How to play</button>
         <Modal open={open} onClose={this.onCloseModal} little>
         <h2 className="font">How to play:</h2>
         <p className="font">
@@ -34,14 +33,19 @@ export default class ModalItem extends React.Component {
           </li>
           <li>
           Once clicked, the cards will shuffle in a random order.
+          </li>
           <li>You must then click a new card but not a card that you have selected before.
           </li>
+          <li>If your next selection is a new card, then your score will go up one.
           </li>
-          <li>If you're next selection is a new card, then your score will go up one.
+          <li>If it is a card that you have selected before, then your score will clear out and go back down to 0.
           </li>
-          <li>If it is a card that you have selected before, then your score will go back down to 0.
+          <li>Once you reach 12 points in your Top Score, you can restart the game.
           </li>
         </ul>
+        <p className="font no-margin">
+          Good luck!
+        </p>
         </Modal>
       </div>
       </div>
